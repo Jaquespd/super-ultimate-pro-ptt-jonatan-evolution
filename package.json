@@ -1,0 +1,54 @@
+{
+  "name": "react-webrtc-chat",
+  "version": "0.1.0",
+  "proxy": "http://localhost:8080",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vardius/react-webrtc-chat.git"
+  },
+  "author": {
+    "name": "Rafał Lorenz",
+    "email": "vardius@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vardius/react-webrtc-chat/issues"
+  },
+  "dependencies": {
+    "@vardius/react-user-media": "^1.0.0",
+    "bootstrap": "^4.3.1",
+    "express": "^4.17.0",
+    "font-awesome": "^4.7.0",
+    "node-sass": "^5.0.0",
+    "peer-data": "^3.2.2",
+    "peer-data-server": "^1.0.10",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-peer-data": "^1.1.2",
+    "react-scripts": "3.0.1",
+    "socket.io": "^2.2.0"
+  },
+  "scripts": {
+    "start": "NODE_ENV=production yarn server",
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "node server.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
